@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PhishGuard</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+    h1 { font-size: 18px; margin: 0 0 10px; }
+    #result { font-weight: bold; margin-top: 10px; }
+    button { margin-top: 5px; margin-right: 5px; }
+  </style>
+</head>
+<body>
+  <h1>PhishGuard</h1>
+
+  <!-- ✅ this fixes your error -->
+  <p id="status">Loading...</p>  
+
+  <p id="result"></p>
+  
+  <button id="whitelistBtn">Whitelist</button>
+  <button id="blacklistBtn">Blacklist</button>
+
+  <h3>Whitelist</h3>
+  <ul id="whitelist"></ul>
+
+  <h3>Blacklist</h3>
+  <ul id="blacklist"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
